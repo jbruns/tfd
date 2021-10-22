@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: traefik-dashboard
+  namespace: argo-common
+spec:
+  encryptedData:
+    users: AgCJdwfHYY1W31QqtqtLVI+XLO/vTsSwB0INIAScdn//DA7LLrdTgYGzgQmW8WjQIUyZJjSp1oFgb1kuCCuopLJEbsh6tTWf0x082kbkpikkWSFSAJXymcUajvFaT78iqbDBLsjv04mPh7BvQRaSJXb9McoUutQKitSh3n286zUpV9O5ez8DcMb4MQfErUO0wBtoNwOSPRoWZoSneCV6p1jm9McrfWLKmtc382jY0KJss0Zm3IsrZTBoTSFdHg8DvE0wUAXIBXoV9Rc/jISnCVGo3IIt2UkjEy9fU8GN8mEzMDeppkyKa0dfEfEAoDI1STO6BSMsrrPn1+cWUVwmCK2kfYAS5QKgj/CyN7e3jxgi2KwYE2m1b73EV6UoHrb9EIjyPdvZKzs06OEfNDuqrpLIyKzx3erVJj4C829E6H4yz+tGqZXdGiAQzs5aXgYMPn6I3j1f418EY+ybHZWIp5R7jWpOYBTkbj1fUeNaHqNXZxsWd6DV05+U8pFI8ndjuOv7E4kXEyoTskPt61oZSjbwQmHEpoqGBQK/weq/TN1bc6u27hdNF7/DtHvS1qHBQ+26K33HFgK7eZDkNPr9FxYZJH4ECFaUCTCOsukLZacluI1LtTugUCeo9qaNJIpDvTeqQ7Y6sxO0ZabmfNDnN1hxbZQHqPPbM6149b6rg0vQOazjrFlSvZ2xK0jy7VYD6QHwIDy/pe8LN4MR8E8IFRyGB5GSPGNmzHryQmAzLFfieDH//zrK7y4zN7PfJpzb
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: traefik-dashboard
+      namespace: argo-common
+
