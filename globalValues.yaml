@@ -1,0 +1,12 @@
+global:
+  repo: https://github.com/jbruns/tfd.git
+  branch: main
+  domain: deserialize.net
+  TZ: America/Los_Angeles
+
+  applicationSets:
+  - common
+    
+  storage:
+    pools: 
+      argo-zfspv-fast: luna-dev/argo/pv
